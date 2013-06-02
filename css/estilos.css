@@ -1,0 +1,75 @@
+*{
+	margin:0;
+	padding:0;
+	}
+	
+	body{
+		background-color: #282828;
+		font-family:verdana;
+		color: #ffffff;
+	}
+	
+
+	#contenedor {
+		width:981px;
+		height: 1132px;
+		margin:0 auto;
+		padding:0;
+		background-color:#cccccc;
+		position: relative;	
+
+	}
+
+	#skype {
+		width: 202px;
+		height: 35px;
+		position: absolute;
+		left: 746px;
+		top: 101px;
+		font-size: 14px;
+
+
+	}
+
+	#skype img{
+		vertical-align: middle;
+		padding-right: 10px;
+
+	}
+	
+	#logoeditar{
+		position: absolute;
+		top: 0px;
+		left: 61px;
+	}
+
+	
+	*
+
+	header {
+		width: 981px;
+		height: 155px;
+		position: absolute;
+		border-bottom: 4px solid #ff7200;
+		
+	}
+
+	.direc {
+		color:  #Ffffff;
+		font-family:verdana;
+		font-size: 14px;
+		position:absolute;
+		top:36px;
+		left:574px;
+	}
+
+	.direc1 {
+		color:  #Ffffff;
+		font-family:verdana;
+		font-size: 14px;
+		position:absolute;
+		top:56px;
+		left:598px;
+	}
+
+	
