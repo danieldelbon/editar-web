@@ -5,6 +5,7 @@
 	list-style: none;
 	font-size: 14px;
 	line-height: 20px;
+	font-family: 'Telex', sans-serif;
 	
 	}
 
@@ -57,7 +58,7 @@ background-size:16px 16px;
 	}
 
 	#contenedor #direccion{
-		padding-top: 20px;
+		padding-top: 50px;
 		padding-right: 20px;
 		
 	}
@@ -72,7 +73,7 @@ background-size:16px 16px;
 	}
 	
 	.direc{
-		padding-top: 70px;
+		padding-top: 200px;
 		min-width: 500px;
 		text-align: right;
 		padding-right: 20px;
@@ -201,6 +202,57 @@ background-size:16px 16px;
 		text-align: justify;
 
 	}
+
+
+
+	#contacto{
+		width: 655px;
+		background-color: gray;
+		margin: 30px auto;
+		height: 600px;
+		border: none;	
+		padding: 60px 0 60px 0;
+		border-radius: 7px;
+	}
+
+	#contacto form{
+		width: 500px;
+		text-align: left;
+		margin: 0 auto;
+
+
+
+	}
+
+	#contacto form label, #contacto form input{
+		display: block;
+		width: 440px;
+		padding: 10px 0 0 3px;
+		text-transform: uppercase;
+ 	}
+
+
+	#contacto form label{
+		font-family: 'Telex', sans-serif;
+	}
+	
+	#contacto fieldset{
+		padding-left: 20px;
+	}	
+
+	#contacto form .boton {
+		width: 80px;	
+		float: right;
+		margin: 20px 30px 10px 0;
+			}
+
+	#contacto form textarea {
+		width: 440px;
+		height: 170px;
+	}
+
+
+
 /*@media screen and (max-width:700px){
 	.direc{padding-left:250px;}
 	}
