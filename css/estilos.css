@@ -251,6 +251,28 @@ background-size:16px 16px;
 		height: 170px;
 	}
 
+	#productos{
+		color: black;
+		margin: 0 auto;
+		width: 90%;
+		
+	} 
+
+	#productos p {
+		text-align: center;
+		font-size: 18px;
+	}
+
+	#productos article a img{
+				width: 100%;	
+	}
+
+	#productos article {
+		display: inline-block;
+		width: 33%;
+		text-align: center;
+		margin-top: 25px;
+	}
 
 
 /*@media screen and (max-width:700px){
