@@ -261,10 +261,12 @@ background-size:16px 16px;
 	#productos p {
 		text-align: center;
 		font-size: 18px;
+		z-index: 100;
 	}
 
 	#productos article a img{
-				width: 100%;	
+				width: 100%;
+				z-index: 90;	
 	}
 
 	#productos article {
@@ -273,6 +275,19 @@ background-size:16px 16px;
 		text-align: center;
 		margin-top: 25px;
 	}
+/*	#contenedor  #productos a img {
+    	-webkit-transition:.9s;
+}*/
+	#contenedor #productos a:hover img  {
+			-moz-transform: scale(.95);
+	 }
+	
+	#contenedor a:hover img{
+		-moz-transform: scale(1.02);
+	}
+
+	
+
 
 
 /*@media screen and (max-width:700px){
